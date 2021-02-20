@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "skillzera-75615"
+    "default": "skillzera-75615",
+    "skill": "skillzeraweb"
   }
 }

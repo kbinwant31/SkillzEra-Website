@@ -1,17 +1,10 @@
 {
   "hosting": {
-    "site":"skillzera",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites":[
-      {
-        "source":"**",
-        "destination":"public/index.html"
-      }
     ]
   }
 }
