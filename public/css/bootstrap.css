@@ -5842,6 +5842,13 @@
   .carousel {
     position: relative;
   }
+  @media only screen and (min-width: 600px) and (max-width: 770px){
+    .carousel-box{
+      padding: 0 0px;
+      
+      text-align: center;
+    }
+  }
   
   .carousel-inner {
     position: relative;

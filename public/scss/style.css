@@ -2562,10 +2562,21 @@ hr {
   margin-bottom: 22px;
   color: #fff;
 }
+.section-tittle h1 {
+  font-size: 35px;
+  display: block;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  color: #fff;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-tittle h2 {
     font-size: 41px;
+  }
+  .section-tittle h1 {
+    font-size: 35px;
   }
 }
 
@@ -2573,12 +2584,19 @@ hr {
   .section-tittle h2 {
     font-size: 31px;
   }
+  .section-tittle h2 {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 575px) {
   .section-tittle h2 {
-    text-align: left;
+    text-align: center;
+    font-size: 26px;
+  }
+  .section-tittle h1 {
     font-size: 24px;
+    text-align: left;
   }
 }
 
@@ -2587,6 +2605,9 @@ hr {
 }
 
 .section-tittle2 h2 {
+  color: #4C1E51;
+}
+.section-tittle2 h1 {
   color: #4C1E51;
 }
 
